@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "build": "rm -rf .parcel-cache; PARCEL_WORKERS=0 parcel build index.js  --no-cache"
+  },
+  "dependencies": {
+    "@babel/core": "7.14.3",
+    "parcel": "2.0.0-nightly.701"
+  }
+}
